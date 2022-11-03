@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Oficina</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/funcoes.js"></script>
+    </head>
+    <body>
+
+        <label for="input1" class="form-label">Marca: </label>
+        <input autofocus type="text" placeholder="ex: Alfa Romeo" class="form-control" name="txtMarca" required id="txtMarca">
+        <button onclick="enviar()">Pesquisar</button>
+
+        <table border="1">
+            <thread>
+                <tr>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Carro</th>
+                    <th scope="col">Camber Dianteiro Minimo</th>
+                    <th scope="col">Camber Dianteiro Máximo</th>
+                    <th scope="col">Caster Dianteiro Minimo</th>
+                    <th scope="col">Caster Dianteiro Maximo</th>
+                    <th scope="col">Convergência Dianteira Minimo</th>
+                    <th scope="col">Convergência Dianteira Máximo</th>
+                    <th scope="col">Camber Traseiro Mínimo</th>
+                    <th scope="col">Camber Traseiro Máximo</th>
+                    <th scope="col">Convergência Traseira Minimo</th>
+                    <th scope="col">Convergência Traseira Máximo</th>
+                </tr>
+            </thread>
+            <tbody id="TableData">
+                
+
+            </tbody>
+        </table>
+    </body>
+</html>
